@@ -1,0 +1,40 @@
+<h1 id="title">Survey Form</title>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+    
+    <label id="email-label" for="email">Email</label>
+    <input id="email" name="email" type="email" min="10" max="99" placeholder="Enter your email" required>
+
+    <label id="number-label" for="number">Number</label>
+    <input id="number" name="age" type="number" placeholder="Enter your age" min="0" max="100">
+    </div>
+
+<label for="food">Choose an option:</label>
+  <select id="dropdown" name="food">
+    <option value="macnchesse">MacnCheese</option>
+    <option value="pizza">pizza</option>
+    <option value="french-fries">french fries</option>
+    <option value="bacon">Bacon</option>
+    </select>
+
+    <label for="mayonnaise"> 
+  <input id="mayonnaise" value="mayonnaise" type="radio" name="Sauce">mayonnaise 
+</label>
+    <label for="ketchup"> 
+  <input id="ketchup" value="ketchup" type="radio" name="Sauce">ketchup 
+</label>
+    <label for="Pepperoni"> 
+  <input id="Pepperoni" value="Pepperoni" type="checkbox" name="Toppings">Pepperoni 
+</label>
+    <label for="Bacon"> 
+  <input id="Bacon" value="Bacon" type="checkbox" name="Toppings">Bacon 
+</label>
+    <label for="Extra-cheese"> 
+  <input id="Extra-cheese" value="Extra-cheese" type="checkbox" name="Toppings">Extra cheese 
+</label>
+<br>
+<textarea id="t" name="t" placeholder="Your Comments"></textarea>
+<input id="submit" type="submit">
